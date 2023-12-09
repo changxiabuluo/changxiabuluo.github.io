@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERE IS YUNNAN 梦中的香格里拉</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .shell{
+        height: 100vh;
+        overflow-x: hidden;
+        perspective: 3px;
+    }
+    .shell div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: 30px;
+        letter-spacing: 2px;
+    }
+    .image{
+        transform: translateZ(-1px) scale(1.6);
+        background-size: contain;
+        height: 100vh;
+        z-index: -1;
+    }
+    .text{
+        height: 50vh;
+        background-color: #fff;
+    }
+    .text h1{
+        color: #000;
+    }
+    .heading{
+        z-index: -1;
+        transform: translateY(-30vh) translateZ(1px);
+        color: #fff;
+        font-size: 30px;
+    }
+    button {
+            background-color: black;
+            border: none;
+            color: lightseagreen;
+            padding: 30px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+</style>
+
+<body>
+    <div class="shell">
+        <div class="image" style="background-image: url('YUN.1.png');"></div>
+        <div class="heading">
+            <h1>欢迎来到香格里拉——</h1>
+        </div>
+        <div class="text">
+            <h1>梦中的天堂</h1>
+        </div>
+
+        <div class="image" style="background-image: url('YUN.2.png');"></div>
+        <div class="heading">
+            <h1>宁静的泸沽湖</h1>
+        </div>
+        <div class="text">
+            <h1>似乎可以治愈一切伤感和烦恼</h1>
+        </div>
+
+        <div class="image" style="background-image: url('YUNNAN2.2.png');"></div>
+        <div class="heading">
+            <h1>天空、湖水和小镇三分世界</h1>
+        </div>
+        <div class="text">
+            <h1>驻足在盘山公路上不愿往前</h1>
+        </div>
+
+        <div class="image" style="background-image: url('YUN.3.png');"></div>
+        <div class="heading">
+            <h1>世界四大峡谷之一的虎跳峡</h1>
+        </div>
+        <div class="text">
+            <h1>吞吐着黄河奔流轰鸣</h1>
+        </div>
+
+        <div class="image" style="background-image: url('YUN.4.png');"></div>
+        <div class="heading">
+            <h1>登顶低纬度的雪山</h1>
+        </div>
+        <div class="text">
+            <h1>目睹雨后放晴的一瞬</h1>
+        </div>
+
+        <div class="image" style="background-image: url('YUN.5.png');"></div>
+        <div class="heading">
+            <h1>穿梭在石林迷宫 峰回路转</h1>
+        </div>
+        
+    </div>
+    <a href="index.html">
+        <button>Back to home page</button>
+    </a>
+</body>
+</html>
